@@ -1,0 +1,59 @@
+{
+	"name": "pronamic/pronamic-pay-with-rabo-smart-pay-for-woocommerce",
+	"description": "Pronamic Pay plugin with Rabo Smart Pay for WooCommerce integration.",
+	"type": "wordpress-plugin",
+	"license": "GPL-2.0-or-later",
+	"config": {
+		"allow-plugins": {
+			"composer/installers": true,
+			"automattic/jetpack-autoloader": true,
+			"dealerdirect/phpcodesniffer-composer-installer": true
+		},
+		"platform": {
+			"php": "8.0"
+		},
+		"platform-check": false,
+		"sort-packages": true,
+		"wp-slug": "pronamic-pay-with-rabo-smart-pay-for-woocommerce"
+	},
+	"extra": {
+		"installer-paths": {
+			"packages/{$vendor}/{$name}": [
+				"vendor:pronamic",
+				"vendor:wp-pay",
+				"vendor:wp-pay-extensions",
+				"vendor:wp-pay-gateways",
+				"woocommerce/action-scheduler"
+			]
+		}
+	},
+	"require": {
+		"php": ">=8.0",
+		"automattic/jetpack-autoloader": "^3.0",
+		"composer/installers": "^2.2",
+		"woocommerce/action-scheduler": "^3.7",
+		"wp-pay-extensions/woocommerce": "^4.8",
+		"wp-pay-gateways/omnikassa-2": "^4.6",
+		"wp-pay/core": "^4.17"
+	},
+	"require-dev": {
+		"pronamic/pronamic-cli": "^1.1",
+		"pronamic/wp-coding-standards": "^2.2",
+		"roots/wordpress-no-content": "^6.4"
+	},
+	"scripts": {
+		"phpcs": "vendor/bin/phpcs -s -v --ignore=packages,build",
+		"build": "vendor/bin/pronamic wp-build --text-domain-fixer=phpcs-text-domain-fixer.xml",
+		"translate": [
+			"@build",
+			"rsync --recursive --delete --verbose ./build/project/languages/ ./languages/"	
+		],
+		"version": "@build",
+		"release": [
+			"@build",
+			"vendor/bin/pronamic release-to-github",
+			"vendor/bin/pronamic release-to-pronamic",
+			"vendor/bin/pronamic release-to-wp-org"
+		]
+	}
+}

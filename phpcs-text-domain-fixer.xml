@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+<ruleset name="Pronamic Pay with Rabo Smart Pay for WooCommerce">
+	<rule ref="WordPress.Utils.I18nTextDomainFixer">
+		<properties>
+			<property name="old_text_domain" type="array">
+				<element value="action-scheduler" />
+				<element value="pronamic_ideal" />
+				<element value="pronamic-money" />
+				<element value="pronamic-payment-gateways-countries-condition-for-woocommerce" />
+				<element value="pronamic-payment-gateways-fees-for-woocommerce" />
+				<element value="pronamic-payment-gateways-order-button-text-for-woocommerce" />
+			</property>
+
+			<property name="new_text_domain" value="pronamic-pay-with-rabo-smart-pay-for-woocommerce" />
+		</properties>
+	</rule>
+</ruleset>
