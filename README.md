@@ -31,7 +31,7 @@ WooCommerce is the world's most popular open-source eCommerce solution.
 
 ### Rabo Smart Pay
 
-_to-do_
+Rabo Smart Pay offers you an all-in-one solution for receiving payments on your physical and online locations. It includes a dashboard that puts you in full control of Rabo Smart Pay and all its included products and payment brands.
 
 ## Dependencies
 
