@@ -10,7 +10,7 @@
 			"dealerdirect/phpcodesniffer-composer-installer": true
 		},
 		"platform": {
-			"php": "8.0"
+			"php": "8.1"
 		},
 		"platform-check": false,
 		"sort-packages": true,
@@ -28,12 +28,12 @@
 		}
 	},
 	"require": {
-		"php": ">=8.0",
+		"php": ">=8.1",
 		"automattic/jetpack-autoloader": "^3.0",
 		"composer/installers": "^2.2",
 		"woocommerce/action-scheduler": "^3.7",
 		"wp-pay-extensions/woocommerce": "^4.8",
-		"wp-pay-gateways/omnikassa-2": "^4.6",
+		"wp-pay-gateways/omnikassa-2": "^4.7",
 		"wp-pay/core": "^4.17"
 	},
 	"require-dev": {
