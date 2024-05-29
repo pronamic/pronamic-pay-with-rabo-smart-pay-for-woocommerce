@@ -17,7 +17,7 @@
 
 ## Video
 
-_to-do_
+[![Accept payments with Rabo Smart Pay and WooCommerce for WordPress](https://img.youtube.com/vi/KCsrFRRJT9U/maxresdefault.jpg)](https://youtu.be/KCsrFRRJT9U)
 
 ## Introduction
 
