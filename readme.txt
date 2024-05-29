@@ -16,6 +16,8 @@ Connect Rabo Smart Pay to WooCommerce with Pronamic Pay. This free plugin is all
 
 Connect Rabo Smart Pay to WooCommerce with Pronamic Pay. This free plugin is all that you need to start selling with WooCommerce. After onboarding with Rabo Smart Pay you can integrate all major payment methods in WooCommerce. Simply activate the desired payment methods and you can add them to your checkout. 
 
+https://youtu.be/KCsrFRRJT9U
+
 ### Features
 
 This plugin is developed from the idea that online payments should be easy. Some of the features:
