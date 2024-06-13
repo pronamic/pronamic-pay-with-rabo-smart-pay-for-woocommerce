@@ -15,7 +15,7 @@
 	],
 	"mappings": {
 		"wp-content/plugins/pronamic-pay-with-rabo-smart-pay-for-woocommerce-dev": "./",
-		"wp-content/plugins/pronamic-pay-with-rabo-smart-pay-for-woocommerce": "./build/project/"
+		"wp-content/plugins/pronamic-pay-with-rabo-smart-pay-for-woocommerce": "./build/stage-2/"
 	},
 	"config": {
 		"PRONAMIC_PAY_DEBUG": true
