@@ -24,8 +24,8 @@
 		"url": "https://github.com/pronamic/pronamic-pay-with-rabo-smart-pay-for-woocommerce/issues"
 	},
 	"devDependencies": {
-		"@wordpress/env": "^9.9.0",
-		"@wordpress/scripts": "^27.8.0"
+		"@wordpress/env": "^10.0.0",
+		"@wordpress/scripts": "^28.0.0"
 	},
 	"scripts": {
 		"lint:pkg-json": "wp-scripts lint-pkg-json"
