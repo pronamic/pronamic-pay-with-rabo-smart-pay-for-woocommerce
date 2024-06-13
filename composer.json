@@ -43,7 +43,7 @@
 	},
 	"scripts": {
 		"phpcs": "vendor/bin/phpcs -s -v --ignore=packages,build",
-		"build": "vendor/bin/pronamic wp-build --text-domain-fixer=phpcs-text-domain-fixer.xml",
+		"build": "@php build/scripts/build.php",
 		"translate": [
 			"@build",
 			"rsync --recursive --delete --verbose ./build/project/languages/ ./languages/"	
