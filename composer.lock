@@ -679,12 +679,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/pronamic/wp-pronamic-pay-woocommerce.git",
-                "reference": "b24e733553437510016ef46b50aeaeb85d483af1"
+                "reference": "d0141814cb4b4f453edff3bc64a58abc71470fbe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pronamic/wp-pronamic-pay-woocommerce/zipball/b24e733553437510016ef46b50aeaeb85d483af1",
-                "reference": "b24e733553437510016ef46b50aeaeb85d483af1",
+                "url": "https://api.github.com/repos/pronamic/wp-pronamic-pay-woocommerce/zipball/d0141814cb4b4f453edff3bc64a58abc71470fbe",
+                "reference": "d0141814cb4b4f453edff3bc64a58abc71470fbe",
                 "shasum": ""
             },
             "require": {
@@ -765,7 +765,7 @@
                 "issues": "https://github.com/wp-pay-extensions/woocommerce/issues",
                 "source": "https://github.com/wp-pay-extensions/woocommerce"
             },
-            "time": "2024-06-13T12:26:37+00:00"
+            "time": "2024-06-14T09:40:16+00:00"
         },
         {
             "name": "wp-pay-gateways/omnikassa-2",
@@ -856,12 +856,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/pronamic/wp-pay-core.git",
-                "reference": "34b965568aa263796e0179b239dd4b57a8b7b625"
+                "reference": "bd197f4b1d3ddd2947c8d0a210171c2e7482bac7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pronamic/wp-pay-core/zipball/34b965568aa263796e0179b239dd4b57a8b7b625",
-                "reference": "34b965568aa263796e0179b239dd4b57a8b7b625",
+                "url": "https://api.github.com/repos/pronamic/wp-pay-core/zipball/bd197f4b1d3ddd2947c8d0a210171c2e7482bac7",
+                "reference": "bd197f4b1d3ddd2947c8d0a210171c2e7482bac7",
                 "shasum": ""
             },
             "require": {
@@ -941,7 +941,7 @@
                 "issues": "https://github.com/wp-pay/core/issues",
                 "source": "https://github.com/wp-pay/core"
             },
-            "time": "2024-06-13T12:08:01+00:00"
+            "time": "2024-06-14T09:24:15+00:00"
         }
     ],
     "packages-dev": [
