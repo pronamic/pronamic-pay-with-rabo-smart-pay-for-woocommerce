@@ -51,9 +51,9 @@
 		"version": "@build",
 		"release": [
 			"@build",
-			"vendor/bin/pronamic release-to-github",
-			"vendor/bin/pronamic release-to-pronamic",
-			"vendor/bin/pronamic release-to-wp-org"
+			"@php build/scripts/release-to-github.php",
+			"@php build/scripts/release-to-pronamic.php"
+			"vendor/bin/pronamic release-to-wp-org --working-dir=./build/stage-2 --svn-dir=./build/svn"
 		]
 	}
 }
