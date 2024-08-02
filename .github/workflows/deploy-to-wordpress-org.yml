@@ -12,14 +12,9 @@ jobs:
       url: https://wordpress.org/plugins/pronamic-pay-with-rabo-smart-pay-for-woocommerce/
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - name: Release
+        uses: pronamic/action-wordpress-plugin-release@main
         with:
-          sparse-checkout: |
-            .github
-            .wordpress-org
-            readme.txt
-
-      - name: Deploy
-        run: gh release download --pattern 'pronamic-pay-with-rabo-smart-pay-for-woocommerce.1.0.0.zip'
-        shell: bash
+          svn-username: pronamic
+          svn-password: ${{ secrets.SVN_PASSWORD }}
+          wp-slug: pronamic-pay-with-rabo-smart-pay-for-woocommerce
