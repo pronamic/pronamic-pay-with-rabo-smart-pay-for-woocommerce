@@ -19,4 +19,5 @@ jobs:
         with:
           svn-username: pronamic
           svn-password: ${{ secrets.SVN_PASSWORD }}
+          tag: ${{ github.ref_name }}
           wp-slug: pronamic-pay-with-rabo-smart-pay-for-woocommerce
