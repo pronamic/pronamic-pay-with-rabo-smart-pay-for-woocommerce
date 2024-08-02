@@ -1,0 +1,25 @@
+name: Deploy to WordPress.org
+
+on:
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    environment:
+      name: WordPress.org plugin directory
+      url: https://wordpress.org/plugins/pronamic-pay-with-rabo-smart-pay-for-woocommerce/
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            .github
+            .wordpress-org
+            readme.txt
+
+      - name: Deploy
+        run: php ../scripts/test.php
+        shell: bash
