@@ -4,9 +4,11 @@ on:
   workflow_dispatch:
     inputs:
       tag:
-        description: 'Tag to release to WordPress.org'
+        description: 'Tag to deploy to WordPress.org'
         required: true
         type: string
+  release:
+    types: [released]
 
 jobs:
   deploy:
@@ -17,12 +19,12 @@ jobs:
       url: https://wordpress.org/plugins/pronamic-pay-with-rabo-smart-pay-for-woocommerce/
 
     steps:
-      - name: Release
-        uses: pronamic/action-wordpress-plugin-release@main
+      - name: Deploy
+        uses: pronamic/action-wordpress-org-plugin-deploy@main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          svn-username: pronamic
-          svn-password: ${{ secrets.SVN_PASSWORD }}
-          tag: ${{ inputs.tag }}
-          wp-slug: pronamic-pay-with-rabo-smart-pay-for-woocommerce
+          username: ${{ vars.WORDPRESS_ORG_PRONAMIC_USERNAME }}
+          password: ${{ secrets.WORDPRESS_ORG_PRONAMIC_PASSWORD }}
+          tag: ${{ inputs.tag || github.event.release.tag_name }}
+          slug: pronamic-pay-with-rabo-smart-pay-for-woocommerce
