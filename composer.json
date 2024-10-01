@@ -51,8 +51,7 @@
 		"version": "@build",
 		"release": [
 			"@build",
-			"@php build/scripts/release-to-github.php",
-			"@php build/scripts/release-to-pronamic.php"
+			"@php build/scripts/release-to-github.php"
 		]
 	}
 }
