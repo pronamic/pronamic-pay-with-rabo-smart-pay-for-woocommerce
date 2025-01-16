@@ -11,6 +11,7 @@
 				<element value="pronamic-payment-gateways-countries-condition-for-woocommerce" />
 				<element value="pronamic-payment-gateways-fees-for-woocommerce" />
 				<element value="pronamic-payment-gateways-order-button-text-for-woocommerce" />
+				<element value="pronamic-pay-woocommerce" />
 			</property>
 
 			<property name="new_text_domain" value="pronamic-pay-with-rabo-smart-pay-for-woocommerce" />
