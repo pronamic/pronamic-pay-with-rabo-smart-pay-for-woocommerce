@@ -32,9 +32,9 @@
 		"automattic/jetpack-autoloader": "^3.0",
 		"composer/installers": "^2.2",
 		"woocommerce/action-scheduler": "^3.7",
-		"wp-pay-extensions/woocommerce": "dev-main as 4.8",
-		"wp-pay-gateways/omnikassa-2": "dev-main as 4.7",
-		"wp-pay/core": "dev-main as 4.19"
+		"wp-pay-extensions/woocommerce": "^4.11",
+		"wp-pay-gateways/omnikassa-2": "^4.9",
+		"wp-pay/core": "^4.25"
 	},
 	"require-dev": {
 		"pronamic/pronamic-cli": "^1.1",
@@ -46,7 +46,7 @@
 		"build": "@php build/scripts/build.php",
 		"translate": [
 			"@build",
-			"rsync --recursive --delete --verbose ./build/project/languages/ ./languages/"	
+			"rsync --recursive --delete --verbose ./build/project/languages/ ./languages/"
 		],
 		"version": "@build",
 		"release": [
