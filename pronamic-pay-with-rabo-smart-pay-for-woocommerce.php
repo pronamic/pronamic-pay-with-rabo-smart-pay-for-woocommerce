@@ -4,7 +4,7 @@
  * Plugin URI: https://www.pronamic.eu/plugins/pronamic-pay-with-rabo-smart-pay-for-woocommerce/
  * Description: Pronamic Pay plugin with Rabo Smart Pay for WooCommerce integration.
  *
- * Version: 1.1.0
+ * Version: 1.2.0
  * Requires at least: 5.9
  * Requires PHP: 8.1
  *

@@ -1,6 +1,6 @@
 {
 	"name": "@pronamic/wp-pronamic-pay-with-rabo-smart-pay-for-woocommerce",
-	"version": "1.1.0",
+	"version": "1.2.0",
 	"description": "Pronamic Pay plugin with Rabo Smart Pay for WooCommerce integration.",
 	"author": "Pronamic",
 	"license": "GPL-2.0-or-later",
