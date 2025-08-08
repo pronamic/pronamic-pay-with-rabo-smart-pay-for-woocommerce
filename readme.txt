@@ -2,7 +2,7 @@
 Contributors: pronamic
 Tags: pronamic, pay, rabobank, woo, woocommerce
 Requires at least: 5.9
-Tested up to: 6.7
+Tested up to: 6.8
 Requires PHP: 8.0
 Stable tag: 1.2.0
 License: GPLv2 or later
