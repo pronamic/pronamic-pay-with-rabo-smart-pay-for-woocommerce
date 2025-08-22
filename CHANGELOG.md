@@ -5,6 +5,24 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.3.0] - 2025-08-22
+
+### Composer
+
+- Changed `php` from `>=8.1` to `>=8.2`.
+- Changed `automattic/jetpack-autoloader` from `v5.0.7` to `v5.0.9`.
+	Release notes: https://github.com/Automattic/jetpack-autoloader/releases/tag/v5.0.9
+- Changed `woocommerce/action-scheduler` from `3.9.2` to `3.9.3`.
+	Release notes: https://github.com/woocommerce/action-scheduler/releases/tag/3.9.3
+- Changed `wp-pay-extensions/woocommerce` from `v4.12.1` to `v4.13.0`.
+	Release notes: https://github.com/pronamic/wp-pronamic-pay-woocommerce/releases/tag/v4.13.0
+- Changed `wp-pay/core` from `v4.26.0` to `v4.27.0`.
+	Release notes: https://github.com/pronamic/wp-pay-core/releases/tag/v4.27.0
+
+Full set of changes: [`1.2.0...1.3.0`][1.3.0]
+
+[1.3.0]: https://github.com/pronamic/pronamic-pay-with-rabo-smart-pay-for-woocommerce/compare/v1.2.0...v1.3.0
+
 ## [1.2.0] - 2025-06-19
 
 ### Composer
