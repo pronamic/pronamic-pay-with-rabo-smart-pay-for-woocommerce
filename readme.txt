@@ -37,10 +37,6 @@ This plugin uses a number of external services to initiate payments. These are d
 
 This plugin provides the link between the shop plugin WooCommerce and Rabo Smart Pay. To communicate with Rabo Smart Pay, this plugin connects to the Rabo Smart Pay API via [https://betalen.rabobank.nl/omnikassa-api/](https://betalen.rabobank.nl/omnikassa-api/) (production) or [https://betalen.rabobank.nl/omnikassa-api-sandbox/](https://betalen.rabobank.nl/omnikassa-api-sandbox/) (sandbox). The documentation for the Rabo Smart Pay API can be found at [https://developer.rabobank.nl/rabo-smart-pay-online-payment-api](https://developer.rabobank.nl/rabo-smart-pay-online-payment-api), Rabobank's privacy statement can be found at [https://www.rabobank.com/privacy](https://www.rabobank.com/privacy). From your WordPress website, customer and payment data can be passed on to Rabo Smart Pay for setting up and processing payments.
 
-#### VIES VAT number validation
-
-If a payment via this plugin is initiated with a VAT number, this plugin will attempt to validate this VAT number via the VIES VAT number validation. The VIES VAT number validation is an online service provided by the European Union that allows businesses to verify the validity of VAT numbers issued by EU Member States. This is important for businesses that are trading with companies in other EU countries, as it helps to ensure that they are only dealing with legitimate businesses. Communication with this service is done via the [http://ec.europa.eu/taxation_customs/vies/checkVatService.wsdl](http://ec.europa.eu/taxation_customs/vies/checkVatService.wsdl) URL. The disclaimer for this service can be consulted via [https://ec.europa.eu/taxation_customs/vies/#/disclaimer](https://ec.europa.eu/taxation_customs/vies/#/disclaimer) and the privacy statement via [https://ec.europa.eu/taxation_customs/vies/rest-api/privacy-statement](https://ec.europa.eu/taxation_customs/vies/rest-api/privacy-statement).
-
 ### Pronamic Pay Premium
 
 With a Pronamic Pay Premium license, you get access to exceptional support and a range of exclusive benefits that take your payment experience to the next level.
