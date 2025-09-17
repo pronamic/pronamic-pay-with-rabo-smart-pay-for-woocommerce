@@ -4,7 +4,7 @@ Tags: pronamic, pay, rabobank, woo, woocommerce
 Requires at least: 5.9
 Tested up to: 6.8
 Requires PHP: 8.2
-Stable tag: 1.3.0
+Stable tag: 1.3.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -73,6 +73,23 @@ Discover all the benefits of Pronamic Pay Premium at [https://www.pronamicpay.co
 == Changelog ==
 
 <!-- Start changelog -->
+
+### [1.3.1] - 2025-09-17
+
+#### Removed
+
+- Removed "VIES VAT number validation", no longer used ([061414d](https://github.com/pronamic/pronamic-pay-with-rabo-smart-pay-for-woocommerce/commit/061414ddee01e46d21136141598032216f8cbae7))
+
+#### Changed
+
+- Changed `automattic/jetpack-autoloader` from `v5.0.9` to `v5.0.10`.
+	Release notes: https://github.com/Automattic/jetpack-autoloader/releases/tag/v5.0.10
+- Changed `wp-pay/core` from `v4.27.0` to `v4.27.1`.
+	Release notes: https://github.com/pronamic/wp-pay-core/releases/tag/v4.27.1
+
+Full set of changes: [`1.3.0...1.3.1`][1.3.1]
+
+[1.3.1]: https://github.com/pronamic/pronamic-pay-with-rabo-smart-pay-for-woocommerce/compare/v1.3.0...v1.3.1
 
 ### [1.3.0] - 2025-08-22
 
