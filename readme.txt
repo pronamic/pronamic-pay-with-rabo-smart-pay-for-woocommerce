@@ -4,7 +4,7 @@ Tags: pronamic, pay, rabobank, woo, woocommerce
 Requires at least: 5.9
 Tested up to: 6.8
 Requires PHP: 8.2
-Stable tag: 1.3.1
+Stable tag: 1.3.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -73,6 +73,19 @@ Discover all the benefits of Pronamic Pay Premium at [https://www.pronamicpay.co
 == Changelog ==
 
 <!-- Start changelog -->
+
+### [1.3.2] - 2025-11-11
+
+#### Composer
+
+- Changed `automattic/jetpack-autoloader` from `v5.0.10` to `v5.0.12`.
+	Release notes: https://github.com/Automattic/jetpack-autoloader/releases/tag/v5.0.12
+- Changed `wp-pay-gateways/omnikassa-2` from `v4.9.1` to `v4.9.2`.
+	Release notes: https://github.com/pronamic/wp-pronamic-pay-rabo-smart-pay/releases/tag/v4.9.2
+
+Full set of changes: [`1.3.1...1.3.2`][1.3.2]
+
+[1.3.2]: https://github.com/pronamic/pronamic-pay-with-rabo-smart-pay-for-woocommerce/compare/v1.3.1...v1.3.2
 
 ### [1.3.1] - 2025-09-17
 
