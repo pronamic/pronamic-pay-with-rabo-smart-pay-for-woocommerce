@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "automattic/jetpack-autoloader",
-            "version": "v5.0.10",
+            "version": "v5.0.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Automattic/jetpack-autoloader.git",
-                "reference": "f7e2142139b925fac0a167ed0cbc71e2592bd9a0"
+                "reference": "e0b0c606afc67fecc0f5af647a5119ac11ed8238"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Automattic/jetpack-autoloader/zipball/f7e2142139b925fac0a167ed0cbc71e2592bd9a0",
-                "reference": "f7e2142139b925fac0a167ed0cbc71e2592bd9a0",
+                "url": "https://api.github.com/repos/Automattic/jetpack-autoloader/zipball/e0b0c606afc67fecc0f5af647a5119ac11ed8238",
+                "reference": "e0b0c606afc67fecc0f5af647a5119ac11ed8238",
                 "shasum": ""
             },
             "require": {
@@ -25,7 +25,7 @@
                 "php": ">=7.2"
             },
             "require-dev": {
-                "automattic/jetpack-changelogger": "^6.0.7",
+                "automattic/jetpack-changelogger": "^6.0.8",
                 "automattic/phpunit-select-config": "^1.0.3",
                 "composer/composer": "^2.2",
                 "yoast/phpunit-polyfills": "^4.0.0"
@@ -67,9 +67,9 @@
                 "wordpress"
             ],
             "support": {
-                "source": "https://github.com/Automattic/jetpack-autoloader/tree/v5.0.10"
+                "source": "https://github.com/Automattic/jetpack-autoloader/tree/v5.0.12"
             },
-            "time": "2025-09-15T14:36:53+00:00"
+            "time": "2025-11-10T21:33:06+00:00"
         },
         {
             "name": "composer/installers",
@@ -776,16 +776,16 @@
         },
         {
             "name": "wp-pay-gateways/omnikassa-2",
-            "version": "v4.9.1",
+            "version": "v4.9.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pronamic/wp-pronamic-pay-rabo-smart-pay.git",
-                "reference": "d3a0661ec1c4f0e45e90910e7ecf6ac176ebed59"
+                "reference": "7d456c74fb4d66282887d9ccfd0fd0e02241fc96"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pronamic/wp-pronamic-pay-rabo-smart-pay/zipball/d3a0661ec1c4f0e45e90910e7ecf6ac176ebed59",
-                "reference": "d3a0661ec1c4f0e45e90910e7ecf6ac176ebed59",
+                "url": "https://api.github.com/repos/pronamic/wp-pronamic-pay-rabo-smart-pay/zipball/7d456c74fb4d66282887d9ccfd0fd0e02241fc96",
+                "reference": "7d456c74fb4d66282887d9ccfd0fd0e02241fc96",
                 "shasum": ""
             },
             "require": {
@@ -854,7 +854,7 @@
                 "issues": "https://github.com/wp-pay-gateways/omnikassa-2/issues",
                 "source": "https://github.com/wp-pay-gateways/omnikassa-2"
             },
-            "time": "2025-06-19T13:10:06+00:00"
+            "time": "2025-11-11T13:29:07+00:00"
         },
         {
             "name": "wp-pay/core",
@@ -2791,23 +2791,23 @@
         },
         {
             "name": "roots/wordpress-no-content",
-            "version": "6.8.2",
+            "version": "6.8.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WordPress/WordPress.git",
-                "reference": "6.8.2"
+                "reference": "6.8.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/release/wordpress-6.8.2-no-content.zip",
-                "reference": "6.8.2",
-                "shasum": "7d8dcb839f4754e331d93b86f9adc8c171d81e97"
+                "url": "https://downloads.wordpress.org/release/wordpress-6.8.3-no-content.zip",
+                "reference": "6.8.3",
+                "shasum": "2c34ba506afd8061d96cde50b2c92f109c10d2c8"
             },
             "require": {
                 "php": ">= 7.2.24"
             },
             "provide": {
-                "wordpress/core-implementation": "6.8.2"
+                "wordpress/core-implementation": "6.8.3"
             },
             "suggest": {
                 "ext-curl": "Performs remote request operations.",
@@ -2858,7 +2858,7 @@
                     "type": "other"
                 }
             ],
-            "time": "2025-07-15T15:29:08+00:00"
+            "time": "2025-09-30T18:16:31+00:00"
         },
         {
             "name": "seld/jsonlint",
