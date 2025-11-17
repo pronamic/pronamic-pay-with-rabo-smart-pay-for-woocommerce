@@ -34,7 +34,7 @@
 		"woocommerce/action-scheduler": "^3.9",
 		"wp-pay-extensions/woocommerce": "^4.13",
 		"wp-pay-gateways/omnikassa-2": "^4.9",
-		"wp-pay/core": "^4.27"
+		"wp-pay/core": "^4.28"
 	},
 	"require-dev": {
 		"pronamic/changelog-md-to-wordpress-plugin-readme-txt": "dev-main",
