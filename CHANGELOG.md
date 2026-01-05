@@ -7,6 +7,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 <!-- Start changelog -->
 
+## [1.4.0] - 2026-01-05
+
+### Composer
+
+- Changed `automattic/jetpack-autoloader` from `v5.0.13` to `v5.0.15`.
+	Release notes: https://github.com/Automattic/jetpack-autoloader/releases/tag/v5.0.15
+- Changed `wp-pay-extensions/woocommerce` from `v4.13.0` to `v4.14.0`.
+	Release notes: https://github.com/pronamic/wp-pronamic-pay-woocommerce/releases/tag/v4.14.0
+- Changed `wp-pay-gateways/omnikassa-2` from `v4.9.2` to `v4.10.0`.
+	Release notes: https://github.com/pronamic/wp-pronamic-pay-rabo-smart-pay/releases/tag/v4.10.0
+- Changed `wp-pay/core` from `v4.28.0` to `v4.29.0`.
+	Release notes: https://github.com/pronamic/wp-pay-core/releases/tag/v4.29.0
+
+Full set of changes: [`1.3.3...1.4.0`][1.4.0]
+
+[1.4.0]: https://github.com/pronamic/pronamic-pay-with-rabo-smart-pay-for-woocommerce/compare/v1.3.3...v1.4.0
+
 ## [1.3.3] - 2025-11-17
 
 ### Composer
