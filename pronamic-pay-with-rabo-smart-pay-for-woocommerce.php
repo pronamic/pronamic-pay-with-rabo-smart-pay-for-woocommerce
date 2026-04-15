@@ -55,6 +55,8 @@ add_action(
 	]
 );
 
+\Pronamic\PronamicPayDefaultPaymentMethods\Plugin::instance();
+
 add_filter(
 	'pronamic_pay_plugin_integrations',
 	function ( $integrations ) {
