@@ -4,7 +4,7 @@ Tags: pronamic, pay, rabobank, woo, woocommerce
 Requires at least: 5.9
 Tested up to: 6.8
 Requires PHP: 8.2
-Stable tag: 1.5.0
+Stable tag: 1.6.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -73,6 +73,40 @@ Discover all the benefits of Pronamic Pay Premium at [https://www.pronamicpay.co
 == Changelog ==
 
 <!-- Start changelog -->
+
+### [1.6.0] - 2026-08-03
+
+#### Added
+
+- Added Pronamic Pay default payment methods, including online banking payment methods for the Czech Republic and Slovakia.
+
+#### Composer
+
+- Added `pronamic/pronamic-pay-default-payment-methods` version `v1.1.0`.
+	Provides default payment method definitions, adding online banking payment methods for CZ and SK.
+	Release notes: https://github.com/pronamic/pronamic-pay-default-payment-methods/releases/tag/v1.1.0
+- Changed `automattic/jetpack-autoloader` from `v5.0.16` to `v5.0.21`.
+	Maintenance release with changelog and readme updates.
+	Release notes: https://github.com/Automattic/jetpack-autoloader/releases/tag/v5.0.21
+- Changed `justinrainbow/json-schema` from `5.3.3` to `5.3.4`.
+	Restores history lost in 5.3.3.
+	Release notes: https://github.com/jsonrainbow/json-schema/releases/tag/5.3.4
+- Changed `pronamic/wp-money` from `v2.4.4` to `2.4.5`.
+	Throws a `CurrencyMismatchException` when adding or subtracting money with different currencies.
+	Release notes: https://github.com/pronamic/wp-money/releases/tag/v2.4.5
+- Changed `woocommerce/action-scheduler` from `3.9.3` to `4.0.0`.
+	Major release with breaking changes to unique action scheduling and automatic purging of failed actions.
+	Release notes: https://github.com/woocommerce/action-scheduler/releases/tag/4.0.0
+- Changed `wp-pay-extensions/woocommerce` from `v4.14.1` to `v4.15.0`.
+	Allows `woocommerce/action-scheduler` `^4.0`.
+	Release notes: https://github.com/pronamic/wp-pronamic-pay-woocommerce/releases/tag/v4.15.0
+- Changed `wp-pay/core` from `v4.32.0` to `v4.34.0`.
+	Allows `woocommerce/action-scheduler` `^4.0` and syncs the refunded amount currency with the total amount when the refunded amount is zero.
+	Release notes: https://github.com/pronamic/wp-pay-core/releases/tag/v4.34.0
+
+Full set of changes: [`1.5.0...1.6.0`][1.6.0]
+
+[1.6.0]: https://github.com/pronamic/pronamic-pay-with-rabo-smart-pay-for-woocommerce/compare/v1.5.0...v1.6.0
 
 ### [1.5.0] - 2026-04-02
 
