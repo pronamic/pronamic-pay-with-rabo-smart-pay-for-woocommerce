@@ -4,7 +4,7 @@ Tags: pronamic, pay, rabobank, woo, woocommerce
 Requires at least: 5.9
 Tested up to: 7.1
 Requires PHP: 8.3
-Stable tag: 1.6.0
+Stable tag: 1.7.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -73,6 +73,38 @@ Discover all the benefits of Pronamic Pay Premium at [https://www.pronamicpay.co
 == Changelog ==
 
 <!-- Start changelog -->
+
+### [1.7.0] - 2026-09-28
+
+#### Changed
+
+- The plugin now requires PHP 8.3 or higher.
+- Subscription renewal reminders are now sent 14 days before the renewal date instead of 1 week.
+- Improved reliability of scheduled background tasks (Action Scheduler).
+
+#### Fixed
+
+- Fixed a currency mismatch error when calculating payment totals in a currency other than EUR.
+
+#### Composer
+
+- Changed `php` from `>=8.2` to `>=8.3`.
+- Changed `automattic/jetpack-autoloader` from `v5.0.21` to `v5.0.23`.
+	5.0.22 started honoring the root package's `exclude-from-classmap` setting; 5.0.23 reverted this again.
+	Changelog: https://github.com/Automattic/jetpack-autoloader/blob/v5.0.23/CHANGELOG.md
+- Changed `pronamic/wp-money` from `2.4.5` to `2.5.0`.
+	Adds an optional currency argument to `Parser::parse()`, allowing amounts to be parsed in currencies other than EUR.
+	Release notes: https://github.com/pronamic/wp-money/releases/tag/v2.5.0
+- Changed `woocommerce/action-scheduler` from `4.0.0` to `4.2.0`.
+	Fixes a lock that could get permanently stuck, enforces unique action inserts atomically, reduces SQL queries on the admin page and adds protection against object-injection attacks in stored schedule data.
+	Release notes: https://github.com/woocommerce/action-scheduler/releases/tag/4.1.0, https://github.com/woocommerce/action-scheduler/releases/tag/4.2.0
+- Changed `wp-pay/core` from `v4.34.0` to `v4.35.0`.
+	Changes the default subscription renewal pre-notification period to 14 days, fixes a currency mismatch exception for non-EUR payment lines and fixes errors for payments or subscriptions whose post no longer exists.
+	Release notes: https://github.com/pronamic/wp-pay-core/releases/tag/v4.35.0
+
+Full set of changes: [`1.6.0...1.7.0`][1.7.0]
+
+[1.7.0]: https://github.com/pronamic/pronamic-pay-with-rabo-smart-pay-for-woocommerce/compare/v1.6.0...v1.7.0
 
 ### [1.6.0] - 2026-08-03
 
