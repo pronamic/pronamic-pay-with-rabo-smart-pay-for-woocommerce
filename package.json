@@ -29,11 +29,5 @@
 	},
 	"scripts": {
 		"lint:pkg-json": "wp-scripts lint-pkg-json"
-	},
-	"allowScripts": {
-		"@parcel/watcher": false,
-		"core-js": false,
-		"core-js-pure": false,
-		"fs-ext-extra-prebuilt": false
 	}
 }
