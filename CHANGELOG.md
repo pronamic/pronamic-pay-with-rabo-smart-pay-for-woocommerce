@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 <!-- Start changelog -->
 
+## [1.7.1] - 2026-11-02
+
+### Changed
+
+- Simplified the build process of the plugin release package; there are no functional changes in the plugin itself.
+- Updated development tools (`@wordpress/env` 12, `@wordpress/scripts` 37 and Composer development dependencies).
+
+Full set of changes: [`1.7.0...1.7.1`][1.7.1]
+
+[1.7.1]: https://github.com/pronamic/pronamic-pay-with-rabo-smart-pay-for-woocommerce/compare/v1.7.0...v1.7.1
+
 ## [1.7.0] - 2026-09-28
 
 ### Changed
