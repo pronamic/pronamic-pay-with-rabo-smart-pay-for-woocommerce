@@ -49,18 +49,20 @@
 		"phpcs": "vendor/bin/phpcs -s -v --ignore=packages,build",
 		"build": [
 			"Pronamic\\ChangelogMdToWordPressPluginReadmeTxt\\Synchronizer::run",
-			"@php build/scripts/build.php"
+			"rm -rf ./build/stage-1",
+			"rsync --recursive --verbose --exclude-from=.distignore --exclude=/vendor/ --exclude=/packages/ --exclude=/node_modules/ ./ ./build/stage-1/",
+			"composer install --no-dev --prefer-dist --optimize-autoloader --working-dir=./build/stage-1/",
+			"rsync --recursive --delete --delete-excluded --verbose --exclude-from=.distignore ./build/stage-1/ ./build/pronamic-pay-with-rabo-smart-pay-for-woocommerce/",
+			"vendor/bin/phpcbf -s -v --standard=phpcs-text-domain-fixer.xml ./build/pronamic-pay-with-rabo-smart-pay-for-woocommerce/ || [ $? -eq 1 ]",
+			"vendor/bin/wp i18n make-pot ./build/pronamic-pay-with-rabo-smart-pay-for-woocommerce/ --slug=pronamic-pay-with-rabo-smart-pay-for-woocommerce",
+			"vendor/bin/wp i18n make-mo ./build/pronamic-pay-with-rabo-smart-pay-for-woocommerce/languages/",
+			"vendor/bin/wp dist-archive ./build/pronamic-pay-with-rabo-smart-pay-for-woocommerce/ --plugin-dirname=pronamic-pay-with-rabo-smart-pay-for-woocommerce --force"
 		],
 		"translate": [
 			"@build",
-			"rsync --recursive --delete --verbose ./build/stage-2/languages/ ./languages/",
-			"@update-po"
+			"rsync --recursive --delete --verbose ./build/pronamic-pay-with-rabo-smart-pay-for-woocommerce/languages/ ./languages/",
+			"vendor/bin/wp i18n update-po ./languages/pronamic-pay-with-rabo-smart-pay-for-woocommerce.pot"
 		],
-		"update-po": "find languages/*.po -type f -exec msgmerge --update --backup=off {} languages/pronamic-pay-with-rabo-smart-pay-for-woocommerce.pot \\;",
-		"version": "@build",
-		"release": [
-			"@build",
-			"@php build/scripts/release-to-github.php"
-		]
+		"version": "@build"
 	}
 }
