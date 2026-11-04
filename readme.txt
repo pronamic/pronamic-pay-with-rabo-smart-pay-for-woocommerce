@@ -4,7 +4,7 @@ Tags: pronamic, pay, rabobank, woo, woocommerce
 Requires at least: 5.9
 Tested up to: 7.1
 Requires PHP: 8.3
-Stable tag: 1.8.0-rc.1
+Stable tag: 1.8.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -76,7 +76,7 @@ Discover all the benefits of Pronamic Pay Premium at [https://www.pronamicpay.co
 
 ### [Unreleased]
 
-### [1.8.0-rc.1] - 2026-11-04
+### [1.8.0] - 2026-11-04
 
 #### Added
 
@@ -113,9 +113,9 @@ Discover all the benefits of Pronamic Pay Premium at [https://www.pronamicpay.co
 	Release notes: https://github.com/pronamic/wp-pronamic-pay-rabo-smart-pay/releases/tag/v4.11.0
 	Release notes: https://github.com/pronamic/wp-pronamic-pay-rabo-smart-pay/releases/tag/v5.0.0
 
-Full set of changes: [`1.7.1...1.8.0-rc.1`][1.8.0-rc.1]
+Full set of changes: [`1.7.1...1.8.0`][1.8.0]
 
-[1.8.0-rc.1]: https://github.com/pronamic/pronamic-pay-with-rabo-smart-pay-for-woocommerce/compare/v1.7.1...v1.8.0-rc.1
+[1.8.0]: https://github.com/pronamic/pronamic-pay-with-rabo-smart-pay-for-woocommerce/compare/v1.7.1...v1.8.0
 
 ### [1.7.1] - 2026-11-02
 

@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [1.8.0-rc.1] - 2026-11-04
+## [1.8.0] - 2026-11-04
 
 ### Added
 
@@ -46,9 +46,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 	Release notes: https://github.com/pronamic/wp-pronamic-pay-rabo-smart-pay/releases/tag/v4.11.0
 	Release notes: https://github.com/pronamic/wp-pronamic-pay-rabo-smart-pay/releases/tag/v5.0.0
 
-Full set of changes: [`1.7.1...1.8.0-rc.1`][1.8.0-rc.1]
+Full set of changes: [`1.7.1...1.8.0`][1.8.0]
 
-[1.8.0-rc.1]: https://github.com/pronamic/pronamic-pay-with-rabo-smart-pay-for-woocommerce/compare/v1.7.1...v1.8.0-rc.1
+[1.8.0]: https://github.com/pronamic/pronamic-pay-with-rabo-smart-pay-for-woocommerce/compare/v1.7.1...v1.8.0
 
 ## [1.7.1] - 2026-11-02
 
