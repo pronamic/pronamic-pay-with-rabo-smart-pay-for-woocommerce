@@ -17,7 +17,6 @@
 
 .travis.yml
 
-phpcs-text-domain-fixer.xml
 phpcs.xml.dist
 
 .phpcs.dir.phpcompatibility.xml
