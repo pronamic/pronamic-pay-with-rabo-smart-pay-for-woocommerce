@@ -35,6 +35,7 @@
 				"pronamic-payment-gateways-countries-condition-for-woocommerce",
 				"pronamic-payment-gateways-fees-for-woocommerce",
 				"pronamic-payment-gateways-order-button-text-for-woocommerce",
+				"pronamic-pay-rabo-smart-pay",
 				"pronamic-pay-woocommerce"
 			],
 			"replace": "pronamic-pay-with-rabo-smart-pay-for-woocommerce",
@@ -50,8 +51,8 @@
 		"composer/installers": "^2.3",
 		"pronamic/pronamic-pay-default-payment-methods": "^1.1",
 		"woocommerce/action-scheduler": "^4.2",
-		"wp-pay-extensions/woocommerce": "^4.15",
-		"wp-pay-gateways/omnikassa-2": "^4.11",
+		"wp-pay-extensions/woocommerce": "^4.16",
+		"wp-pay-gateways/omnikassa-2": "^5.0",
 		"wp-pay/core": "^4.35"
 	},
 	"require-dev": {

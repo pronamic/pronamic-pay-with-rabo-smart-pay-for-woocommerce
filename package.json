@@ -1,6 +1,6 @@
 {
 	"name": "@pronamic/wp-pronamic-pay-with-rabo-smart-pay-for-woocommerce",
-	"version": "1.7.1",
+	"version": "1.8.0-rc.1",
 	"description": "Pronamic Pay plugin with Rabo Smart Pay for WooCommerce integration.",
 	"author": "Pronamic",
 	"license": "GPL-2.0-or-later",
@@ -24,8 +24,8 @@
 		"url": "https://github.com/pronamic/pronamic-pay-with-rabo-smart-pay-for-woocommerce/issues"
 	},
 	"devDependencies": {
-		"@wordpress/env": "^12.0.0",
-		"@wordpress/scripts": "^37.0.0"
+		"@wordpress/env": "^12.1.0",
+		"@wordpress/scripts": "^37.1.0"
 	},
 	"scripts": {
 		"lint:pkg-json": "wp-scripts lint-pkg-json"

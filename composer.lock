@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ce2b4df245d334b3bd19d66ca1e3a288",
+    "content-hash": "5c41851c4d6f861c5f69ee07ee74b952",
     "packages": [
         {
             "name": "automattic/jetpack-autoloader",
-            "version": "v6.0.2",
+            "version": "v6.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Automattic/jetpack-autoloader.git",
-                "reference": "18acbf9d5231961f7bcda63b9f12bef42dc4dcd8"
+                "reference": "315cc2c3392bf5d1f54d4868384279c75a320b66"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Automattic/jetpack-autoloader/zipball/18acbf9d5231961f7bcda63b9f12bef42dc4dcd8",
-                "reference": "18acbf9d5231961f7bcda63b9f12bef42dc4dcd8",
+                "url": "https://api.github.com/repos/Automattic/jetpack-autoloader/zipball/315cc2c3392bf5d1f54d4868384279c75a320b66",
+                "reference": "315cc2c3392bf5d1f54d4868384279c75a320b66",
                 "shasum": ""
             },
             "require": {
@@ -65,9 +65,10 @@
                 "wordpress"
             ],
             "support": {
-                "source": "https://github.com/Automattic/jetpack-autoloader/tree/v6.0.2"
+                "source": "https://github.com/Automattic/jetpack-autoloader/tree/v6.0.3"
             },
-            "time": "2026-10-20T16:01:49+00:00"
+            "time": "2026-11-02T18:05:06+00:00",
+            "published-time": "2026-11-02T18:05:21+00:00"
         },
         {
             "name": "composer/installers",
@@ -213,7 +214,8 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-06-24T20:46:46+00:00"
+            "time": "2024-06-24T20:46:46+00:00",
+            "published-time": "2024-06-24T21:01:36+00:00"
         },
         {
             "name": "justinrainbow/json-schema",
@@ -278,7 +280,8 @@
                 "issues": "https://github.com/jsonrainbow/json-schema/issues",
                 "source": "https://github.com/jsonrainbow/json-schema/tree/6.14.0"
             },
-            "time": "2026-10-24T08:53:34+00:00"
+            "time": "2026-10-24T08:53:34+00:00",
+            "published-time": "2026-10-24T08:53:38+00:00"
         },
         {
             "name": "marc-mabe/php-enum",
@@ -351,7 +354,8 @@
                 "issues": "https://github.com/marc-mabe/php-enum/issues",
                 "source": "https://github.com/marc-mabe/php-enum/tree/v4.7.2"
             },
-            "time": "2025-09-14T11:18:39+00:00"
+            "time": "2025-09-14T11:18:39+00:00",
+            "published-time": "2025-09-14T11:32:17+00:00"
         },
         {
             "name": "pronamic/pronamic-pay-default-payment-methods",
@@ -392,7 +396,8 @@
                 "issues": "https://github.com/pronamic/pronamic-pay-default-payment-methods/issues",
                 "source": "https://github.com/pronamic/pronamic-pay-default-payment-methods/tree/v1.1.0"
             },
-            "time": "2026-07-31T13:02:04+00:00"
+            "time": "2026-07-31T13:02:04+00:00",
+            "published-time": "2026-07-31T13:02:41+00:00"
         },
         {
             "name": "pronamic/wp-datetime",
@@ -443,7 +448,8 @@
                 "issues": "https://github.com/pronamic/wp-datetime/issues",
                 "source": "https://github.com/pronamic/wp-datetime/tree/v2.2.0"
             },
-            "time": "2026-03-23T08:19:30+00:00"
+            "time": "2026-03-23T08:19:30+00:00",
+            "published-time": "2026-03-23T08:20:34+00:00"
         },
         {
             "name": "pronamic/wp-html",
@@ -488,7 +494,8 @@
                 "issues": "https://github.com/pronamic/wp-html/issues",
                 "source": "https://github.com/pronamic/wp-html/tree/v2.2.2"
             },
-            "time": "2024-12-17T12:41:40+00:00"
+            "time": "2024-12-17T12:41:40+00:00",
+            "published-time": "2024-12-17T12:41:47+00:00"
         },
         {
             "name": "pronamic/wp-http",
@@ -532,7 +539,8 @@
                 "issues": "https://github.com/pronamic/wp-http/issues",
                 "source": "https://github.com/pronamic/wp-http/tree/v1.2.4"
             },
-            "time": "2024-12-17T12:45:36+00:00"
+            "time": "2024-12-17T12:45:36+00:00",
+            "published-time": "2024-12-17T12:45:43+00:00"
         },
         {
             "name": "pronamic/wp-money",
@@ -585,7 +593,8 @@
                 "issues": "https://github.com/pronamic/wp-money/issues",
                 "source": "https://github.com/pronamic/wp-money/tree/v2.5.0"
             },
-            "time": "2026-09-21T07:38:19+00:00"
+            "time": "2026-09-21T07:38:19+00:00",
+            "published-time": "2026-09-21T07:39:15+00:00"
         },
         {
             "name": "pronamic/wp-number",
@@ -659,7 +668,8 @@
                 "issues": "https://github.com/pronamic/wp-number/issues",
                 "source": "https://github.com/pronamic/wp-number/tree/v1.4.1"
             },
-            "time": "2026-03-23T08:26:29+00:00"
+            "time": "2026-03-23T08:26:29+00:00",
+            "published-time": "2026-03-23T08:27:16+00:00"
         },
         {
             "name": "pronamic/wp-pay-logos",
@@ -703,7 +713,8 @@
                 "issues": "https://github.com/pronamic/wp-pay-logos/issues",
                 "source": "https://github.com/pronamic/wp-pay-logos/tree/v2.3.2"
             },
-            "time": "2025-12-01T15:29:15+00:00"
+            "time": "2025-12-01T15:29:15+00:00",
+            "published-time": "2025-12-01T15:29:42+00:00"
         },
         {
             "name": "viison/address-splitter",
@@ -746,7 +757,8 @@
                 "issues": "https://github.com/pickware/address-splitter/issues",
                 "source": "https://github.com/pickware/address-splitter/tree/0.3.4"
             },
-            "time": "2019-10-24T09:23:47+00:00"
+            "time": "2019-10-24T09:23:47+00:00",
+            "published-time": "2019-10-24T10:21:08+00:00"
         },
         {
             "name": "woocommerce/action-scheduler",
@@ -793,51 +805,51 @@
                 "issues": "https://github.com/woocommerce/action-scheduler/issues",
                 "source": "https://github.com/woocommerce/action-scheduler/tree/4.2.0"
             },
-            "time": "2026-09-16T21:40:40+00:00"
+            "time": "2026-09-16T21:40:40+00:00",
+            "published-time": "2026-09-16T21:53:56+00:00"
         },
         {
             "name": "wp-pay-extensions/woocommerce",
-            "version": "v4.15.1",
+            "version": "v4.16.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pronamic/wp-pronamic-pay-woocommerce.git",
-                "reference": "6d76bb949923b25000068e36e209df5023ab9fa1"
+                "reference": "f39b0196d71e8b5417b2bfdb17a5f93a80f93aae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pronamic/wp-pronamic-pay-woocommerce/zipball/6d76bb949923b25000068e36e209df5023ab9fa1",
-                "reference": "6d76bb949923b25000068e36e209df5023ab9fa1",
+                "url": "https://api.github.com/repos/pronamic/wp-pronamic-pay-woocommerce/zipball/f39b0196d71e8b5417b2bfdb17a5f93a80f93aae",
+                "reference": "f39b0196d71e8b5417b2bfdb17a5f93a80f93aae",
                 "shasum": ""
             },
             "require": {
                 "automattic/jetpack-autoloader": "^3.0 || ^4.0 || ^5.0 || ^6.0",
-                "php": ">=8.2",
+                "php": ">=8.3",
                 "pronamic/wp-html": "^2.2",
                 "pronamic/wp-number": "^1.4",
                 "woocommerce/action-scheduler": "^3.9 || ^4.0",
                 "wp-pay/core": "^4.28"
             },
             "require-dev": {
-                "overtrue/phplint": "^9.1",
-                "php-coveralls/php-coveralls": "^2.7",
-                "php-stubs/woocommerce-stubs": "^8.7",
-                "php-stubs/wp-cli-stubs": "^2.10",
-                "phpmd/phpmd": "^2.15",
+                "overtrue/phplint": "^9.8",
+                "php-coveralls/php-coveralls": "^2.9",
+                "php-stubs/woocommerce-stubs": "^11.2",
+                "php-stubs/wp-cli-stubs": "^2.12",
+                "phpmd/phpmd": "^3.0",
                 "phpstan/extension-installer": "^1.4",
-                "phpstan/phpstan": "^1.11",
-                "pronamic/pronamic-cli": "^1.1",
+                "phpstan/phpstan": "^2.3",
                 "pronamic/woocommerce-subscriptions": "^7.6",
-                "pronamic/wp-coding-standards": "^2.2",
-                "rector/rector": "^1.2",
-                "roots/wordpress": "^6.8",
-                "szepeviktor/phpstan-wordpress": "^1.3",
-                "vimeo/psalm": "^0.3.14",
-                "wp-cli/wp-cli": "^2.10",
-                "wp-pay-gateways/mollie": "^4.19",
-                "wp-phpunit/wp-phpunit": "^6.4",
-                "wpackagist-plugin/woocommerce": "^8.7",
-                "yoast/phpunit-polyfills": "^2.0",
-                "yoast/wordpress-seo": "^22.3"
+                "pronamic/wp-coding-standards": "^2.5",
+                "rector/rector": "^2.8",
+                "roots/wordpress": "^7.1",
+                "szepeviktor/phpstan-wordpress": "^2.0",
+                "vimeo/psalm": "^6.5",
+                "wp-cli/dist-archive-command": "^3.1",
+                "wp-cli/wp-cli-bundle": "^2.11",
+                "wp-phpunit/wp-phpunit": "^7.1",
+                "wpackagist-plugin/woocommerce": "^11.2",
+                "yoast/phpunit-polyfills": "^4.0",
+                "yoast/wordpress-seo": "^28.8"
             },
             "type": "wordpress-plugin",
             "extra": {
@@ -889,50 +901,61 @@
                 "issues": "https://github.com/wp-pay-extensions/woocommerce/issues",
                 "source": "https://github.com/wp-pay-extensions/woocommerce"
             },
-            "time": "2026-11-02T14:29:06+00:00"
+            "time": "2026-11-04T09:18:20+00:00",
+            "published-time": "2026-11-04T09:18:25+00:00"
         },
         {
             "name": "wp-pay-gateways/omnikassa-2",
-            "version": "v4.11.0",
+            "version": "v5.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pronamic/wp-pronamic-pay-rabo-smart-pay.git",
-                "reference": "bd00a80720ce276ccbb4cb734036b0e6e1983319"
+                "reference": "a991a8a4ca54e0d616c68b541e2f516cee0e0aa4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pronamic/wp-pronamic-pay-rabo-smart-pay/zipball/bd00a80720ce276ccbb4cb734036b0e6e1983319",
-                "reference": "bd00a80720ce276ccbb4cb734036b0e6e1983319",
+                "url": "https://api.github.com/repos/pronamic/wp-pronamic-pay-rabo-smart-pay/zipball/a991a8a4ca54e0d616c68b541e2f516cee0e0aa4",
+                "reference": "a991a8a4ca54e0d616c68b541e2f516cee0e0aa4",
                 "shasum": ""
             },
             "require": {
                 "automattic/jetpack-autoloader": "^3.0 || ^4.0 || ^5.0 || ^6.0",
-                "justinrainbow/json-schema": "^6.8",
-                "php": ">=8.1",
+                "justinrainbow/json-schema": "^6.14",
+                "php": ">=8.3",
                 "pronamic/wp-http": "^1.2",
                 "pronamic/wp-number": "^1.4",
-                "wp-pay/core": "^4.26"
+                "wp-pay/core": "^4.35"
             },
             "require-dev": {
                 "humanmade/psalm-plugin-wordpress": "^3.1",
                 "overtrue/phplint": "^9.1",
                 "php-coveralls/php-coveralls": "^2.7",
                 "phpmd/phpmd": "^2.15",
-                "phpstan/extension-installer": "^1.3",
-                "phpstan/phpstan": "^1.11",
-                "pronamic/pronamic-cli": "^1.1",
+                "phpstan/extension-installer": "^1.4",
+                "phpstan/phpstan": "^2.3",
+                "phpunit/phpunit": "^10.5",
                 "pronamic/wp-coding-standards": "^2.2",
-                "pronamic/wp-documentor": "^1.4",
-                "roots/wordpress": "^6.4",
-                "sirbrillig/phpcs-variable-analysis": "^2.11",
-                "slevomat/coding-standard": "^8.15",
-                "szepeviktor/phpstan-wordpress": "^1.3",
-                "vimeo/psalm": "^5.24",
-                "wordpress/sqlite-database-integration": "^2.1",
+                "rector/rector": "^2.6",
+                "roots/wordpress": "^6.9",
+                "sirbrillig/phpcs-variable-analysis": "^2.13",
+                "slevomat/coding-standard": "^8.22",
+                "solvebeam/wp-hooks-documentor": "^1.5",
+                "szepeviktor/phpstan-wordpress": "^2.0",
+                "vimeo/psalm": "^6.20",
+                "wp-cli/dist-archive-command": "*",
+                "wp-cli/wp-cli-bundle": "*",
                 "wp-phpunit/wp-phpunit": "^6.5",
+                "wp-plugin/sqlite-database-integration": "^3.1",
                 "yoast/phpunit-polyfills": "^2.0"
             },
             "type": "wordpress-plugin",
+            "extra": {
+                "installer-paths": {
+                    "vendor/{$vendor}/{$name}/": [
+                        "type:wordpress-plugin"
+                    ]
+                }
+            },
             "autoload": {
                 "psr-4": {
                     "Pronamic\\WordPress\\Pay\\Gateways\\OmniKassa2\\": "src/"
@@ -969,10 +992,11 @@
             ],
             "support": {
                 "email": "support@wp-pay.org",
-                "issues": "https://github.com/wp-pay-gateways/omnikassa-2/issues",
-                "source": "https://github.com/wp-pay-gateways/omnikassa-2"
+                "issues": "https://github.com/pronamic/wp-pronamic-pay-rabo-smart-pay/issues",
+                "source": "https://github.com/pronamic/wp-pronamic-pay-rabo-smart-pay"
             },
-            "time": "2026-11-02T14:29:02+00:00"
+            "time": "2026-11-04T13:20:14+00:00",
+            "published-time": "2026-11-04T13:20:19+00:00"
         },
         {
             "name": "wp-pay/core",
@@ -1065,7 +1089,8 @@
                 "issues": "https://github.com/wp-pay/core/issues",
                 "source": "https://github.com/wp-pay/core"
             },
-            "time": "2026-09-28T10:07:28+00:00"
+            "time": "2026-09-28T10:07:28+00:00",
+            "published-time": "2026-09-28T10:08:12+00:00"
         }
     ],
     "packages-dev": [
@@ -1121,7 +1146,8 @@
                 "source": "https://github.com/Automattic/VIP-Coding-Standards",
                 "wiki": "https://github.com/Automattic/VIP-Coding-Standards/wiki"
             },
-            "time": "2026-07-27T14:33:48+00:00"
+            "time": "2026-07-27T14:33:48+00:00",
+            "published-time": "2026-07-27T14:37:08+00:00"
         },
         {
             "name": "composer/ca-bundle",
@@ -1193,20 +1219,21 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-10-29T14:10:42+00:00"
+            "time": "2026-10-29T14:10:42+00:00",
+            "published-time": "2026-10-29T14:45:12+00:00"
         },
         {
             "name": "composer/class-map-generator",
-            "version": "1.8.0",
+            "version": "1.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/class-map-generator.git",
-                "reference": "c0efbeb2f3fd7e23c7f180a59765c0b48a31fbc4"
+                "reference": "5fa48e0e1992ea8a786df3ceca80625c9a643b75"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/class-map-generator/zipball/c0efbeb2f3fd7e23c7f180a59765c0b48a31fbc4",
-                "reference": "c0efbeb2f3fd7e23c7f180a59765c0b48a31fbc4",
+                "url": "https://api.github.com/repos/composer/class-map-generator/zipball/5fa48e0e1992ea8a786df3ceca80625c9a643b75",
+                "reference": "5fa48e0e1992ea8a786df3ceca80625c9a643b75",
                 "shasum": ""
             },
             "require": {
@@ -1250,7 +1277,7 @@
             ],
             "support": {
                 "issues": "https://github.com/composer/class-map-generator/issues",
-                "source": "https://github.com/composer/class-map-generator/tree/1.8.0"
+                "source": "https://github.com/composer/class-map-generator/tree/1.9.0"
             },
             "funding": [
                 {
@@ -1262,7 +1289,8 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-09-25T15:24:19+00:00"
+            "time": "2026-11-03T10:10:19+00:00",
+            "published-time": "2026-11-03T10:12:49+00:00"
         },
         {
             "name": "composer/composer",
@@ -1377,7 +1405,8 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-10-30T13:52:10+00:00"
+            "time": "2026-10-30T13:52:10+00:00",
+            "published-time": "2026-10-30T14:03:09+00:00"
         },
         {
             "name": "composer/metadata-minifier",
@@ -1442,7 +1471,8 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-06-30T11:34:59+00:00"
+            "time": "2026-06-30T11:34:59+00:00",
+            "published-time": "2026-06-30T11:37:18+00:00"
         },
         {
             "name": "composer/pcre",
@@ -1518,7 +1548,8 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-06-07T11:47:49+00:00"
+            "time": "2026-06-07T11:47:49+00:00",
+            "published-time": "2026-06-11T12:12:37+00:00"
         },
         {
             "name": "composer/semver",
@@ -1595,7 +1626,8 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-10-29T09:13:34+00:00"
+            "time": "2026-10-29T09:13:34+00:00",
+            "published-time": "2026-10-29T09:14:11+00:00"
         },
         {
             "name": "composer/spdx-licenses",
@@ -1671,7 +1703,8 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-04-08T20:18:39+00:00"
+            "time": "2026-04-08T20:18:39+00:00",
+            "published-time": "2026-04-08T20:19:56+00:00"
         },
         {
             "name": "composer/xdebug-handler",
@@ -1737,7 +1770,8 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-05-06T16:37:16+00:00"
+            "time": "2024-05-06T16:37:16+00:00",
+            "published-time": "2024-05-06T17:01:42+00:00"
         },
         {
             "name": "dealerdirect/phpcodesniffer-composer-installer",
@@ -1833,7 +1867,8 @@
                     "type": "thanks_dev"
                 }
             ],
-            "time": "2026-05-06T08:26:05+00:00"
+            "time": "2026-05-06T08:26:05+00:00",
+            "published-time": "2026-05-06T12:56:03+00:00"
         },
         {
             "name": "eftec/bladeone",
@@ -1891,7 +1926,8 @@
                 "issues": "https://github.com/EFTEC/BladeOne/issues",
                 "source": "https://github.com/EFTEC/BladeOne/tree/3.52"
             },
-            "time": "2021-04-17T13:49:01+00:00"
+            "time": "2021-04-17T13:49:01+00:00",
+            "published-time": "2021-04-17T13:49:42+00:00"
         },
         {
             "name": "gettext/gettext",
@@ -1972,7 +2008,8 @@
                     "type": "patreon"
                 }
             ],
-            "time": "2024-05-18T10:25:07+00:00"
+            "time": "2024-05-18T10:25:07+00:00",
+            "published-time": "2024-05-18T10:26:21+00:00"
         },
         {
             "name": "gettext/languages",
@@ -2047,7 +2084,8 @@
                     "type": "github"
                 }
             ],
-            "time": "2026-02-23T14:05:50+00:00"
+            "time": "2026-02-23T14:05:50+00:00",
+            "published-time": "2026-02-23T14:07:59+00:00"
         },
         {
             "name": "inmarelibero/gitignore-checker",
@@ -2096,7 +2134,8 @@
                 "issues": "https://github.com/inmarelibero/gitignore-checker/issues",
                 "source": "https://github.com/inmarelibero/gitignore-checker/tree/1.0.4"
             },
-            "time": "2024-05-03T16:17:41+00:00"
+            "time": "2024-05-03T16:17:41+00:00",
+            "published-time": "2024-05-03T16:18:28+00:00"
         },
         {
             "name": "mck89/peast",
@@ -2146,7 +2185,8 @@
                 "issues": "https://github.com/mck89/peast/issues",
                 "source": "https://github.com/mck89/peast/tree/v1.18.1"
             },
-            "time": "2026-09-15T06:27:15+00:00"
+            "time": "2026-09-15T06:27:15+00:00",
+            "published-time": "2026-09-15T06:27:47+00:00"
         },
         {
             "name": "nb/oxymel",
@@ -2191,7 +2231,8 @@
                 "issues": "https://github.com/nb/oxymel/issues",
                 "source": "https://github.com/nb/oxymel/tree/master"
             },
-            "time": "2013-02-24T15:01:54+00:00"
+            "time": "2013-02-24T15:01:54+00:00",
+            "published-time": "2013-06-26T14:49:09+00:00"
         },
         {
             "name": "nikic/php-parser",
@@ -2311,7 +2352,8 @@
                 "issues": "https://github.com/PHPCompatibility/PHPCompatibility/issues",
                 "source": "https://github.com/PHPCompatibility/PHPCompatibility"
             },
-            "time": "2019-12-27T09:44:58+00:00"
+            "time": "2019-12-27T09:44:58+00:00",
+            "published-time": "2019-12-27T10:11:56+00:00"
         },
         {
             "name": "phpcompatibility/phpcompatibility-paragonie",
@@ -2387,7 +2429,8 @@
                     "type": "thanks_dev"
                 }
             ],
-            "time": "2025-09-19T17:43:28+00:00"
+            "time": "2025-09-19T17:43:28+00:00",
+            "published-time": "2025-09-19T17:46:46+00:00"
         },
         {
             "name": "phpcompatibility/phpcompatibility-wp",
@@ -2462,7 +2505,8 @@
                     "type": "thanks_dev"
                 }
             ],
-            "time": "2025-10-18T00:05:59+00:00"
+            "time": "2025-10-18T00:05:59+00:00",
+            "published-time": "2025-10-18T00:08:18+00:00"
         },
         {
             "name": "phpcsstandards/phpcsextra",
@@ -2544,7 +2588,8 @@
                     "type": "thanks_dev"
                 }
             ],
-            "time": "2026-07-27T11:13:17+00:00"
+            "time": "2026-07-27T11:13:17+00:00",
+            "published-time": "2026-07-27T11:19:59+00:00"
         },
         {
             "name": "phpcsstandards/phpcsutils",
@@ -2637,7 +2682,8 @@
                     "type": "thanks_dev"
                 }
             ],
-            "time": "2026-07-27T10:28:41+00:00"
+            "time": "2026-07-27T10:28:41+00:00",
+            "published-time": "2026-07-27T10:36:31+00:00"
         },
         {
             "name": "pronamic/changelog-md-to-wordpress-plugin-readme-txt",
@@ -2678,7 +2724,8 @@
                 "issues": "https://github.com/pronamic/pronamic-changelog-md-to-wordpress-plugin-readme-txt/issues",
                 "source": "https://github.com/pronamic/pronamic-changelog-md-to-wordpress-plugin-readme-txt/tree/v1.0.0"
             },
-            "time": "2024-10-01T13:41:34+00:00"
+            "time": "2024-10-01T13:41:34+00:00",
+            "published-time": "2025-08-30T11:54:42+00:00"
         },
         {
             "name": "pronamic/pronamic-cli",
@@ -2727,7 +2774,8 @@
                 "source": "https://github.com/pronamic/pronamic-cli/tree/v1.1.1"
             },
             "abandoned": true,
-            "time": "2024-08-01T14:04:36+00:00"
+            "time": "2024-08-01T14:04:36+00:00",
+            "published-time": "2024-08-01T14:05:11+00:00"
         },
         {
             "name": "pronamic/wp-coding-standards",
@@ -2783,7 +2831,8 @@
                 "issues": "https://github.com/pronamic/wp-coding-standards/issues",
                 "source": "https://github.com/pronamic/wp-coding-standards"
             },
-            "time": "2026-01-06T10:21:23+00:00"
+            "time": "2026-01-06T10:21:23+00:00",
+            "published-time": "2026-01-06T10:22:40+00:00"
         },
         {
             "name": "psr/container",
@@ -2836,7 +2885,8 @@
                 "issues": "https://github.com/php-fig/container/issues",
                 "source": "https://github.com/php-fig/container/tree/2.0.2"
             },
-            "time": "2021-11-05T16:47:00+00:00"
+            "time": "2021-11-05T16:47:00+00:00",
+            "published-time": "2021-11-05T16:53:27+00:00"
         },
         {
             "name": "psr/log",
@@ -2886,7 +2936,8 @@
             "support": {
                 "source": "https://github.com/php-fig/log/tree/3.0.2"
             },
-            "time": "2024-09-11T13:17:53+00:00"
+            "time": "2024-09-11T13:17:53+00:00",
+            "published-time": "2024-09-11T13:21:14+00:00"
         },
         {
             "name": "react/promise",
@@ -2959,7 +3010,8 @@
                     "type": "open_collective"
                 }
             ],
-            "time": "2025-08-19T18:57:03+00:00"
+            "time": "2025-08-19T18:57:03+00:00",
+            "published-time": "2025-08-19T19:13:36+00:00"
         },
         {
             "name": "roots/wordpress-no-content",
@@ -3030,20 +3082,21 @@
                     "type": "other"
                 }
             ],
-            "time": "2026-10-28T17:15:58+00:00"
+            "time": "2026-10-28T17:15:58+00:00",
+            "published-time": "2026-10-28T17:16:09+00:00"
         },
         {
             "name": "seld/jsonlint",
-            "version": "1.12.1",
+            "version": "1.12.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/jsonlint.git",
-                "reference": "9a90eb5d32d5a500296bf43f946d60246444d5f7"
+                "reference": "4882a0459c88772e4afa3a73ee81b7824490aa9c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/jsonlint/zipball/9a90eb5d32d5a500296bf43f946d60246444d5f7",
-                "reference": "9a90eb5d32d5a500296bf43f946d60246444d5f7",
+                "url": "https://api.github.com/repos/Seldaek/jsonlint/zipball/4882a0459c88772e4afa3a73ee81b7824490aa9c",
+                "reference": "4882a0459c88772e4afa3a73ee81b7824490aa9c",
                 "shasum": ""
             },
             "require": {
@@ -3082,7 +3135,7 @@
             ],
             "support": {
                 "issues": "https://github.com/Seldaek/jsonlint/issues",
-                "source": "https://github.com/Seldaek/jsonlint/tree/1.12.1"
+                "source": "https://github.com/Seldaek/jsonlint/tree/1.12.2"
             },
             "funding": [
                 {
@@ -3094,7 +3147,8 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-06-12T11:32:29+00:00"
+            "time": "2026-11-03T10:16:18+00:00",
+            "published-time": "2026-11-03T10:20:37+00:00"
         },
         {
             "name": "seld/phar-utils",
@@ -3142,7 +3196,8 @@
                 "issues": "https://github.com/Seldaek/phar-utils/issues",
                 "source": "https://github.com/Seldaek/phar-utils/tree/1.2.3"
             },
-            "time": "2026-10-01T08:16:23+00:00"
+            "time": "2026-10-01T08:16:23+00:00",
+            "published-time": "2026-10-01T08:17:41+00:00"
         },
         {
             "name": "seld/signal-handler",
@@ -3203,7 +3258,8 @@
                 "issues": "https://github.com/Seldaek/signal-handler/issues",
                 "source": "https://github.com/Seldaek/signal-handler/tree/2.0.2"
             },
-            "time": "2023-09-03T09:24:00+00:00"
+            "time": "2023-09-03T09:24:00+00:00",
+            "published-time": "2023-09-03T09:24:36+00:00"
         },
         {
             "name": "sirbrillig/phpcs-variable-analysis",
@@ -3259,7 +3315,8 @@
                 "source": "https://github.com/sirbrillig/phpcs-variable-analysis",
                 "wiki": "https://github.com/sirbrillig/phpcs-variable-analysis/wiki"
             },
-            "time": "2025-09-30T22:22:48+00:00"
+            "time": "2025-09-30T22:22:48+00:00",
+            "published-time": "2025-09-30T22:24:41+00:00"
         },
         {
             "name": "solvebeam/wp-text-domain-replacer",
@@ -3399,20 +3456,21 @@
                     "type": "thanks_dev"
                 }
             ],
-            "time": "2026-08-06T00:17:32+00:00"
+            "time": "2026-08-06T00:17:32+00:00",
+            "published-time": "2026-08-06T01:05:02+00:00"
         },
         {
             "name": "symfony/console",
-            "version": "v6.4.49",
+            "version": "v6.4.50",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "e918c95b70bdfa09148054a71c82c2858ae82efd"
+                "reference": "955771637c0a01d5e91730aa8f63edae5190e2c7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/e918c95b70bdfa09148054a71c82c2858ae82efd",
-                "reference": "e918c95b70bdfa09148054a71c82c2858ae82efd",
+                "url": "https://api.github.com/repos/symfony/console/zipball/955771637c0a01d5e91730aa8f63edae5190e2c7",
+                "reference": "955771637c0a01d5e91730aa8f63edae5190e2c7",
                 "shasum": ""
             },
             "require": {
@@ -3477,7 +3535,7 @@
                 "terminal"
             ],
             "support": {
-                "source": "https://github.com/symfony/console/tree/v6.4.49"
+                "source": "https://github.com/symfony/console/tree/v6.4.50"
             },
             "funding": [
                 {
@@ -3497,20 +3555,21 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-10-28T10:54:25+00:00"
+            "time": "2026-11-03T21:19:33+00:00",
+            "published-time": "2026-11-04T11:24:42+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
-            "version": "v3.7.1",
+            "version": "v3.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/deprecation-contracts.git",
-                "reference": "f3202fa1b5097b0af062dc978b32ecf63404e31d"
+                "reference": "feb1edf4e546af3b85c5caebe8359a20db230ca3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/f3202fa1b5097b0af062dc978b32ecf63404e31d",
-                "reference": "f3202fa1b5097b0af062dc978b32ecf63404e31d",
+                "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/feb1edf4e546af3b85c5caebe8359a20db230ca3",
+                "reference": "feb1edf4e546af3b85c5caebe8359a20db230ca3",
                 "shasum": ""
             },
             "require": {
@@ -3523,7 +3582,7 @@
                     "name": "symfony/contracts"
                 },
                 "branch-alias": {
-                    "dev-main": "3.7-dev"
+                    "dev-main": "3.8-dev"
                 }
             },
             "autoload": {
@@ -3548,7 +3607,7 @@
             "description": "A generic function and convention to trigger deprecation notices",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/deprecation-contracts/tree/v3.7.1"
+                "source": "https://github.com/symfony/deprecation-contracts/tree/v3.8.1"
             },
             "funding": [
                 {
@@ -3568,20 +3627,21 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-06-05T06:23:12+00:00"
+            "time": "2026-09-16T14:15:10+00:00",
+            "published-time": "2026-11-04T11:25:34+00:00"
         },
         {
             "name": "symfony/filesystem",
-            "version": "v6.4.48",
+            "version": "v6.4.50",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
-                "reference": "e3ff48b19ac71ee79f89021122211710b892ae0b"
+                "reference": "9c54f695d2fcfb0bb21c8003b7a038bc631aa2e9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/filesystem/zipball/e3ff48b19ac71ee79f89021122211710b892ae0b",
-                "reference": "e3ff48b19ac71ee79f89021122211710b892ae0b",
+                "url": "https://api.github.com/repos/symfony/filesystem/zipball/9c54f695d2fcfb0bb21c8003b7a038bc631aa2e9",
+                "reference": "9c54f695d2fcfb0bb21c8003b7a038bc631aa2e9",
                 "shasum": ""
             },
             "require": {
@@ -3618,7 +3678,7 @@
             "description": "Provides basic utilities for the filesystem",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/filesystem/tree/v6.4.48"
+                "source": "https://github.com/symfony/filesystem/tree/v6.4.50"
             },
             "funding": [
                 {
@@ -3638,20 +3698,21 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-10-06T17:30:58+00:00"
+            "time": "2026-11-04T08:16:31+00:00",
+            "published-time": "2026-11-04T11:24:13+00:00"
         },
         {
             "name": "symfony/finder",
-            "version": "v7.4.22",
+            "version": "v7.4.23",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
-                "reference": "e13420a8e0a76bdde1e7be09f923e62ad13739f2"
+                "reference": "c723f990aefe8c1053b18374faf4231eba84f518"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/finder/zipball/e13420a8e0a76bdde1e7be09f923e62ad13739f2",
-                "reference": "e13420a8e0a76bdde1e7be09f923e62ad13739f2",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/c723f990aefe8c1053b18374faf4231eba84f518",
+                "reference": "c723f990aefe8c1053b18374faf4231eba84f518",
                 "shasum": ""
             },
             "require": {
@@ -3686,7 +3747,7 @@
             "description": "Finds files and directories via an intuitive fluent interface",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/finder/tree/v7.4.22"
+                "source": "https://github.com/symfony/finder/tree/v7.4.23"
             },
             "funding": [
                 {
@@ -3706,7 +3767,8 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-10-19T16:56:54+00:00"
+            "time": "2026-11-02T10:56:49+00:00",
+            "published-time": "2026-11-04T11:28:12+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -3789,7 +3851,8 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-04-10T16:19:22+00:00"
+            "time": "2026-04-10T16:19:22+00:00",
+            "published-time": "2026-04-26T14:44:50+00:00"
         },
         {
             "name": "symfony/polyfill-intl-grapheme",
@@ -3871,7 +3934,8 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-10-15T09:18:53+00:00"
+            "time": "2026-10-15T09:18:53+00:00",
+            "published-time": "2026-10-28T10:07:44+00:00"
         },
         {
             "name": "symfony/polyfill-intl-normalizer",
@@ -3956,7 +4020,8 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-09-23T22:02:09+00:00"
+            "time": "2026-09-23T22:02:09+00:00",
+            "published-time": "2026-09-30T10:23:47+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -4041,7 +4106,8 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-10-28T09:35:49+00:00"
+            "time": "2026-10-28T09:35:49+00:00",
+            "published-time": "2026-10-28T10:07:45+00:00"
         },
         {
             "name": "symfony/polyfill-php73",
@@ -4121,7 +4187,8 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-09-09T11:45:10+00:00"
+            "time": "2024-09-09T11:45:10+00:00",
+            "published-time": "2026-04-26T14:44:49+00:00"
         },
         {
             "name": "symfony/polyfill-php80",
@@ -4205,7 +4272,8 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-09-25T15:50:05+00:00"
+            "time": "2026-09-25T15:50:05+00:00",
+            "published-time": "2026-09-30T10:23:35+00:00"
         },
         {
             "name": "symfony/polyfill-php81",
@@ -4285,7 +4353,8 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-05-26T12:45:58+00:00"
+            "time": "2026-05-26T12:45:58+00:00",
+            "published-time": "2026-05-26T13:40:34+00:00"
         },
         {
             "name": "symfony/polyfill-php84",
@@ -4365,20 +4434,21 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-09-23T22:01:09+00:00"
+            "time": "2026-09-23T22:01:09+00:00",
+            "published-time": "2026-09-30T10:23:33+00:00"
         },
         {
             "name": "symfony/service-contracts",
-            "version": "v3.7.3",
+            "version": "v3.8.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/service-contracts.git",
-                "reference": "15e6a07ec2a2c75ceb1b21dd98105ee8456d2257"
+                "reference": "052852a96fd5e5ebdb617dba22031e41a3300fb5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/service-contracts/zipball/15e6a07ec2a2c75ceb1b21dd98105ee8456d2257",
-                "reference": "15e6a07ec2a2c75ceb1b21dd98105ee8456d2257",
+                "url": "https://api.github.com/repos/symfony/service-contracts/zipball/052852a96fd5e5ebdb617dba22031e41a3300fb5",
+                "reference": "052852a96fd5e5ebdb617dba22031e41a3300fb5",
                 "shasum": ""
             },
             "require": {
@@ -4396,7 +4466,7 @@
                     "name": "symfony/contracts"
                 },
                 "branch-alias": {
-                    "dev-main": "3.7-dev"
+                    "dev-main": "3.8-dev"
                 }
             },
             "autoload": {
@@ -4432,7 +4502,7 @@
                 "standards"
             ],
             "support": {
-                "source": "https://github.com/symfony/service-contracts/tree/v3.7.3"
+                "source": "https://github.com/symfony/service-contracts/tree/v3.8.1"
             },
             "funding": [
                 {
@@ -4452,7 +4522,8 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-07-27T15:39:01+00:00"
+            "time": "2026-10-20T17:38:25+00:00",
+            "published-time": "2026-11-04T11:25:33+00:00"
         },
         {
             "name": "symfony/string",
@@ -4543,7 +4614,8 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-10-23T16:51:52+00:00"
+            "time": "2026-10-23T16:51:52+00:00",
+            "published-time": "2026-10-28T18:21:18+00:00"
         },
         {
             "name": "wp-cli/cache-command",
@@ -4622,7 +4694,8 @@
                 "issues": "https://github.com/wp-cli/cache-command/issues",
                 "source": "https://github.com/wp-cli/cache-command/tree/v2.2.1"
             },
-            "time": "2025-11-11T13:30:39+00:00"
+            "time": "2025-11-11T13:30:39+00:00",
+            "published-time": "2025-12-09T15:56:26+00:00"
         },
         {
             "name": "wp-cli/checksum-command",
@@ -4681,7 +4754,8 @@
                 "issues": "https://github.com/wp-cli/checksum-command/issues",
                 "source": "https://github.com/wp-cli/checksum-command/tree/v2.3.2"
             },
-            "time": "2025-11-11T13:30:40+00:00"
+            "time": "2025-11-11T13:30:40+00:00",
+            "published-time": "2025-12-09T15:56:31+00:00"
         },
         {
             "name": "wp-cli/config-command",
@@ -4755,7 +4829,8 @@
                 "issues": "https://github.com/wp-cli/config-command/issues",
                 "source": "https://github.com/wp-cli/config-command/tree/v2.4.0"
             },
-            "time": "2025-11-11T13:30:41+00:00"
+            "time": "2025-11-11T13:30:41+00:00",
+            "published-time": "2025-12-09T15:56:37+00:00"
         },
         {
             "name": "wp-cli/core-command",
@@ -4826,7 +4901,8 @@
                 "issues": "https://github.com/wp-cli/core-command/issues",
                 "source": "https://github.com/wp-cli/core-command/tree/v2.1.23"
             },
-            "time": "2026-01-10T09:57:36+00:00"
+            "time": "2026-01-10T09:57:36+00:00",
+            "published-time": "2026-01-10T10:29:47+00:00"
         },
         {
             "name": "wp-cli/cron-command",
@@ -4895,7 +4971,8 @@
                 "issues": "https://github.com/wp-cli/cron-command/issues",
                 "source": "https://github.com/wp-cli/cron-command/tree/v2.3.2"
             },
-            "time": "2025-04-02T11:55:20+00:00"
+            "time": "2025-04-02T11:55:20+00:00",
+            "published-time": "2025-04-29T08:15:49+00:00"
         },
         {
             "name": "wp-cli/db-command",
@@ -4969,7 +5046,8 @@
                 "issues": "https://github.com/wp-cli/db-command/issues",
                 "source": "https://github.com/wp-cli/db-command/tree/v2.1.3"
             },
-            "time": "2025-04-10T11:02:04+00:00"
+            "time": "2025-04-10T11:02:04+00:00",
+            "published-time": "2025-04-29T08:15:53+00:00"
         },
         {
             "name": "wp-cli/dist-archive-command",
@@ -5031,7 +5109,8 @@
                 "issues": "https://github.com/wp-cli/dist-archive-command/issues",
                 "source": "https://github.com/wp-cli/dist-archive-command/tree/v3.1.0"
             },
-            "time": "2025-11-11T13:30:45+00:00"
+            "time": "2025-11-11T13:30:45+00:00",
+            "published-time": "2025-12-09T15:56:52+00:00"
         },
         {
             "name": "wp-cli/embed-command",
@@ -5098,7 +5177,8 @@
                 "issues": "https://github.com/wp-cli/embed-command/issues",
                 "source": "https://github.com/wp-cli/embed-command/tree/v2.1.0"
             },
-            "time": "2025-11-11T13:30:46+00:00"
+            "time": "2025-11-11T13:30:46+00:00",
+            "published-time": "2025-12-09T15:57:00+00:00"
         },
         {
             "name": "wp-cli/entity-command",
@@ -5335,7 +5415,8 @@
                 "issues": "https://github.com/wp-cli/entity-command/issues",
                 "source": "https://github.com/wp-cli/entity-command/tree/v2.8.4"
             },
-            "time": "2025-05-06T16:12:49+00:00"
+            "time": "2025-05-06T16:12:49+00:00",
+            "published-time": "2025-05-06T18:37:55+00:00"
         },
         {
             "name": "wp-cli/eval-command",
@@ -5393,7 +5474,8 @@
                 "issues": "https://github.com/wp-cli/eval-command/issues",
                 "source": "https://github.com/wp-cli/eval-command/tree/v2.2.9"
             },
-            "time": "2026-03-18T09:03:46+00:00"
+            "time": "2026-03-18T09:03:46+00:00",
+            "published-time": "2026-03-19T10:35:39+00:00"
         },
         {
             "name": "wp-cli/export-command",
@@ -5456,7 +5538,8 @@
                 "issues": "https://github.com/wp-cli/export-command/issues",
                 "source": "https://github.com/wp-cli/export-command/tree/v2.1.16"
             },
-            "time": "2026-03-17T08:25:40+00:00"
+            "time": "2026-03-17T08:25:40+00:00",
+            "published-time": "2026-03-19T10:34:50+00:00"
         },
         {
             "name": "wp-cli/extension-command",
@@ -5554,7 +5637,8 @@
                 "issues": "https://github.com/wp-cli/extension-command/issues",
                 "source": "https://github.com/wp-cli/extension-command/tree/v2.1.24"
             },
-            "time": "2025-05-06T19:17:53+00:00"
+            "time": "2025-05-06T19:17:53+00:00",
+            "published-time": "2025-05-06T19:18:39+00:00"
         },
         {
             "name": "wp-cli/i18n-command",
@@ -5624,7 +5708,8 @@
                 "issues": "https://github.com/wp-cli/i18n-command/issues",
                 "source": "https://github.com/wp-cli/i18n-command/tree/v2.7.0"
             },
-            "time": "2026-03-16T17:13:39+00:00"
+            "time": "2026-03-16T17:13:39+00:00",
+            "published-time": "2026-03-17T18:03:01+00:00"
         },
         {
             "name": "wp-cli/import-command",
@@ -5685,7 +5770,8 @@
                 "issues": "https://github.com/wp-cli/import-command/issues",
                 "source": "https://github.com/wp-cli/import-command/tree/v2.0.16"
             },
-            "time": "2026-03-16T15:17:43+00:00"
+            "time": "2026-03-16T15:17:43+00:00",
+            "published-time": "2026-03-17T21:29:29+00:00"
         },
         {
             "name": "wp-cli/language-command",
@@ -5765,7 +5851,8 @@
                 "issues": "https://github.com/wp-cli/language-command/issues",
                 "source": "https://github.com/wp-cli/language-command/tree/v2.0.25"
             },
-            "time": "2025-09-04T10:30:12+00:00"
+            "time": "2025-09-04T10:30:12+00:00",
+            "published-time": "2025-09-05T11:09:39+00:00"
         },
         {
             "name": "wp-cli/maintenance-mode-command",
@@ -5826,7 +5913,8 @@
                 "issues": "https://github.com/wp-cli/maintenance-mode-command/issues",
                 "source": "https://github.com/wp-cli/maintenance-mode-command/tree/v2.1.3"
             },
-            "time": "2024-11-24T17:26:30+00:00"
+            "time": "2024-11-24T17:26:30+00:00",
+            "published-time": "2025-04-29T08:16:32+00:00"
         },
         {
             "name": "wp-cli/media-command",
@@ -5889,7 +5977,8 @@
                 "issues": "https://github.com/wp-cli/media-command/issues",
                 "source": "https://github.com/wp-cli/media-command/tree/v2.2.5"
             },
-            "time": "2026-03-04T13:53:32+00:00"
+            "time": "2026-03-04T13:53:32+00:00",
+            "published-time": "2026-03-04T14:39:42+00:00"
         },
         {
             "name": "wp-cli/mustache",
@@ -5941,7 +6030,8 @@
             "support": {
                 "source": "https://github.com/wp-cli/mustache.php/tree/v2.14.99"
             },
-            "time": "2025-05-06T16:15:37+00:00"
+            "time": "2025-05-06T16:15:37+00:00",
+            "published-time": "2025-05-06T18:29:58+00:00"
         },
         {
             "name": "wp-cli/mustangostang-spyc",
@@ -5992,7 +6082,8 @@
             "support": {
                 "source": "https://github.com/wp-cli/spyc/tree/0.6.7"
             },
-            "time": "2026-10-06T08:59:48+00:00"
+            "time": "2026-10-06T08:59:48+00:00",
+            "published-time": "2026-10-06T09:00:14+00:00"
         },
         {
             "name": "wp-cli/package-command",
@@ -6057,7 +6148,8 @@
                 "issues": "https://github.com/wp-cli/package-command/issues",
                 "source": "https://github.com/wp-cli/package-command/tree/v2.6.1"
             },
-            "time": "2025-08-25T13:32:31+00:00"
+            "time": "2025-08-25T13:32:31+00:00",
+            "published-time": "2025-09-05T12:43:26+00:00"
         },
         {
             "name": "wp-cli/php-cli-tools",
@@ -6120,7 +6212,8 @@
                 "issues": "https://github.com/wp-cli/php-cli-tools/issues",
                 "source": "https://github.com/wp-cli/php-cli-tools/tree/v0.12.9"
             },
-            "time": "2026-03-29T11:12:54+00:00"
+            "time": "2026-03-29T11:12:54+00:00",
+            "published-time": "2026-03-29T20:04:18+00:00"
         },
         {
             "name": "wp-cli/process",
@@ -6170,7 +6263,8 @@
             "support": {
                 "source": "https://github.com/wp-cli/process/tree/v5.9.99"
             },
-            "time": "2025-05-06T21:26:50+00:00"
+            "time": "2025-05-06T21:26:50+00:00",
+            "published-time": "2025-05-06T18:31:48+00:00"
         },
         {
             "name": "wp-cli/rewrite-command",
@@ -6231,7 +6325,8 @@
                 "issues": "https://github.com/wp-cli/rewrite-command/issues",
                 "source": "https://github.com/wp-cli/rewrite-command/tree/v2.0.16"
             },
-            "time": "2025-11-11T13:30:58+00:00"
+            "time": "2025-11-11T13:30:58+00:00",
+            "published-time": "2025-12-09T16:03:17+00:00"
         },
         {
             "name": "wp-cli/role-command",
@@ -6297,7 +6392,8 @@
                 "issues": "https://github.com/wp-cli/role-command/issues",
                 "source": "https://github.com/wp-cli/role-command/tree/v2.0.16"
             },
-            "time": "2025-04-02T12:24:15+00:00"
+            "time": "2025-04-02T12:24:15+00:00",
+            "published-time": "2025-04-29T08:16:56+00:00"
         },
         {
             "name": "wp-cli/scaffold-command",
@@ -6363,7 +6459,8 @@
                 "issues": "https://github.com/wp-cli/scaffold-command/issues",
                 "source": "https://github.com/wp-cli/scaffold-command/tree/v2.5.2"
             },
-            "time": "2026-01-09T14:41:03+00:00"
+            "time": "2026-01-09T14:41:03+00:00",
+            "published-time": "2026-01-10T10:24:50+00:00"
         },
         {
             "name": "wp-cli/search-replace-command",
@@ -6423,7 +6520,8 @@
                 "issues": "https://github.com/wp-cli/search-replace-command/issues",
                 "source": "https://github.com/wp-cli/search-replace-command/tree/v2.1.11"
             },
-            "time": "2026-03-18T08:50:38+00:00"
+            "time": "2026-03-18T08:50:38+00:00",
+            "published-time": "2026-03-19T10:32:28+00:00"
         },
         {
             "name": "wp-cli/server-command",
@@ -6481,7 +6579,8 @@
                 "issues": "https://github.com/wp-cli/server-command/issues",
                 "source": "https://github.com/wp-cli/server-command/tree/v2.0.15"
             },
-            "time": "2025-04-10T11:03:13+00:00"
+            "time": "2025-04-10T11:03:13+00:00",
+            "published-time": "2025-04-29T08:17:07+00:00"
         },
         {
             "name": "wp-cli/shell-command",
@@ -6538,7 +6637,8 @@
                 "issues": "https://github.com/wp-cli/shell-command/issues",
                 "source": "https://github.com/wp-cli/shell-command/tree/v2.0.16"
             },
-            "time": "2025-04-11T09:39:33+00:00"
+            "time": "2025-04-11T09:39:33+00:00",
+            "published-time": "2025-04-29T08:17:10+00:00"
         },
         {
             "name": "wp-cli/super-admin-command",
@@ -6599,7 +6699,8 @@
                 "issues": "https://github.com/wp-cli/super-admin-command/issues",
                 "source": "https://github.com/wp-cli/super-admin-command/tree/v2.0.16"
             },
-            "time": "2025-04-02T13:07:32+00:00"
+            "time": "2025-04-02T13:07:32+00:00",
+            "published-time": "2025-04-29T08:17:13+00:00"
         },
         {
             "name": "wp-cli/widget-command",
@@ -6669,7 +6770,8 @@
                 "issues": "https://github.com/wp-cli/widget-command/issues",
                 "source": "https://github.com/wp-cli/widget-command/tree/v2.2.1"
             },
-            "time": "2026-03-17T12:28:44+00:00"
+            "time": "2026-03-17T12:28:44+00:00",
+            "published-time": "2026-03-17T17:57:37+00:00"
         },
         {
             "name": "wp-cli/wp-cli",
@@ -6738,7 +6840,8 @@
                 "issues": "https://github.com/wp-cli/wp-cli/issues",
                 "source": "https://github.com/wp-cli/wp-cli"
             },
-            "time": "2025-05-07T01:16:12+00:00"
+            "time": "2025-05-07T01:16:12+00:00",
+            "published-time": "2025-05-07T01:16:59+00:00"
         },
         {
             "name": "wp-cli/wp-cli-bundle",
@@ -6812,7 +6915,8 @@
                 "issues": "https://github.com/wp-cli/wp-cli-bundle/issues",
                 "source": "https://github.com/wp-cli/wp-cli-bundle"
             },
-            "time": "2025-05-07T02:15:53+00:00"
+            "time": "2025-05-07T02:15:53+00:00",
+            "published-time": "2025-05-07T02:16:27+00:00"
         },
         {
             "name": "wp-cli/wp-config-transformer",
@@ -6861,7 +6965,8 @@
                 "issues": "https://github.com/wp-cli/wp-config-transformer/issues",
                 "source": "https://github.com/wp-cli/wp-config-transformer/tree/v1.4.7"
             },
-            "time": "2026-10-06T06:18:26+00:00"
+            "time": "2026-10-06T06:18:26+00:00",
+            "published-time": "2026-10-07T08:35:54+00:00"
         },
         {
             "name": "wp-coding-standards/wpcs",
@@ -6927,7 +7032,8 @@
                     "type": "custom"
                 }
             ],
-            "time": "2026-07-27T11:53:23+00:00"
+            "time": "2026-07-27T11:53:23+00:00",
+            "published-time": "2026-07-27T11:55:52+00:00"
         }
     ],
     "aliases": [],
