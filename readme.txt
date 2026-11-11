@@ -4,7 +4,7 @@ Tags: pronamic, pay, rabobank, woo, woocommerce
 Requires at least: 5.9
 Tested up to: 7.1
 Requires PHP: 8.3
-Stable tag: 1.8.0
+Stable tag: 1.8.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -75,6 +75,22 @@ Discover all the benefits of Pronamic Pay Premium at [https://www.pronamicpay.co
 <!-- Start changelog -->
 
 ### [Unreleased]
+
+### [1.8.1] - 2026-11-11
+
+#### Fixed
+
+- Rabo Smart Pay: fixed refunds failing with "Object does not have `refundTransactionId` property." after Rabo Smart Pay created the refund. The refund status is now stored as `rabo_smart_pay_refund_status` refund meta.
+- Rabo Smart Pay: fixed processing order results with a transaction without the optional `confirmedAmount` property.
+
+#### Composer
+
+- Changed `wp-pay-gateways/omnikassa-2` from `v5.0.0` to `v5.0.1`. Fixed refunds and order results with missing optional response properties.
+	Release notes: https://github.com/pronamic/wp-pronamic-pay-rabo-smart-pay/releases/tag/v5.0.1
+
+Full set of changes: [`1.8.0...1.8.1`][1.8.1]
+
+[1.8.1]: https://github.com/pronamic/pronamic-pay-with-rabo-smart-pay-for-woocommerce/compare/v1.8.0...v1.8.1
 
 ### [1.8.0] - 2026-11-04
 
