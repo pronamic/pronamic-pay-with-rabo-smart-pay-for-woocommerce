@@ -4,7 +4,7 @@ Tags: pronamic, pay, rabobank, woo, woocommerce
 Requires at least: 5.9
 Tested up to: 7.1
 Requires PHP: 8.3
-Stable tag: 1.9.0
+Stable tag: 1.9.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -75,6 +75,22 @@ Discover all the benefits of Pronamic Pay Premium at [https://www.pronamicpay.co
 <!-- Start changelog -->
 
 ### [Unreleased]
+
+### [1.9.1] - 2026-11-24
+
+#### Fixed
+
+- Rabo Smart Pay: error messages now include the `errorMessage` when the response also has a `consumerMessage`, for example for error code 9999 ("Please contact Rabo Smart Pay support team and provide the errorMessage").
+- Rabo Smart Pay: the return URL handler now only updates the payment status and adds a payment note when the signature is valid and the `order_id` parameter matches the merchant order ID of the payment. ([pronamic/wp-pronamic-pay-rabo-smart-pay#57](https://github.com/pronamic/wp-pronamic-pay-rabo-smart-pay/issues/57))
+
+#### Composer
+
+- Changed `wp-pay-gateways/omnikassa-2` from `v5.0.1` to `v5.0.2`.
+	Release notes: https://github.com/pronamic/wp-pronamic-pay-rabo-smart-pay/releases/tag/v5.0.2
+
+Full set of changes: [`1.9.0...1.9.1`][1.9.1]
+
+[1.9.1]: https://github.com/pronamic/pronamic-pay-with-rabo-smart-pay-for-woocommerce/compare/v1.9.0...v1.9.1
 
 ### [1.9.0] - 2026-11-17
 
